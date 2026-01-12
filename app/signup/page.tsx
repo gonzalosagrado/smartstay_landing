@@ -29,7 +29,7 @@ export default function SignupPage() {
       })
 
       const dashboardUrl = "https://smartstay-v0.vercel.app"
-      window.location.href = `${dashboardUrl}/dashboard`
+      window.location.href = `${dashboardUrl}/signup`
     }, 1000)
   }
 

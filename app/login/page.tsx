@@ -28,7 +28,7 @@ export default function LoginPage() {
       })
 
       const dashboardUrl = "https://smartstay-v0.vercel.app"
-      window.location.href = `${dashboardUrl}/dashboard`
+      window.location.href = `${dashboardUrl}/login`
     }, 1000)
   }
 
