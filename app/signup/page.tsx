@@ -28,7 +28,7 @@ export default function SignupPage() {
         description: "Redirigiendo al onboarding...",
       })
 
-      const dashboardUrl = process.env.NEXT_PUBLIC_DASHBOARD_URL || "https://smartstay-v0.vercel.app"
+      const dashboardUrl = "https://smartstay-v0.vercel.app"
       window.location.href = `${dashboardUrl}/dashboard`
     }, 1000)
   }
